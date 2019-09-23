@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TP-NadirPelletier</string>
+    <string name="title_activity_quiz_image">QuizImageActivity</string>
+    <string name="title_activity_quiz_image2">QuizImageActivity2</string>
+    <string name="joueur">Joueur :\t</string>
+    <string name="meme1">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="c_est_vrai">😚🙌🏼🍎🙌🏼😚</string>
+    <string name="todo">TODO</string>
+    <string name="question_ici_question_ici_question_ici_nquestion_ici_question_ici_question_ici">Question ICI Question
+        ICI Question ICI Question ICI Question ICI Question ICI
+    </string>
+    <string name="_00_30">00:30</string>
+    <string name="confirmer">CONFIRMER</string>
+    <string name="text_aPropos">
+        🤩Bienvenu dans un fragment🤩  \n\nWOW LA BELLE ANIMATION!\n\n Nadir Pelletier\n Programmation Multimédia 2019\n\n Cliquez sur
+        l\'image pour retourner au menu
+    </string>
+</resources>

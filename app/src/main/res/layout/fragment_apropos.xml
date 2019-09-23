@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.nadirpelletier.TPQuiz.Apropos" android:id="@+id/fragmentLayout"
+>
+
+
+    <ImageButton
+            android:src="@drawable/meme2"
+            android:layout_width="match_parent"
+            android:layout_height="444dp" android:id="@+id/imageButtonFragment" android:layout_marginTop="5dp"
+            android:layout_below="@+id/textViewApropos" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp" android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="0dp"
+    />
+    <TextView
+            android:id="@+id/textViewApropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_aPropos"
+            android:textSize="18sp" android:textColor="@color/colorPrimaryDark" android:textStyle="bold"
+            android:textAlignment="center" android:layout_marginTop="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="29dp" android:layout_alignParentEnd="true" android:layout_marginEnd="19dp"
+            android:layout_below="@+id/textViewAproposNom"/>
+    <TextView
+            android:layout_width="391dp"
+            android:layout_height="wrap_content" android:id="@+id/textViewAproposNom" android:layout_marginTop="22dp"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp" android:textSize="30sp" android:textColor="?attr/colorError"
+            android:textStyle="bold" android:textAlignment="center" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="9dp"/>
+
+</RelativeLayout>
